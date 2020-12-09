@@ -1,1 +1,5 @@
-# recipe.app.api
+### commands
+
+```
+docker-compose run app sh -c "python manage.py test"
+```
