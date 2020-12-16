@@ -1,5 +1,9 @@
 ### commands
 
+```buildoutcfg
+docker-compose build
+```
+
 start tests
 ```buildoutcfg
 docker-compose run app sh -c "python manage.py test"
@@ -11,6 +15,6 @@ docker-compose run app sh -c "python manage.py startapp core"
 ```
 
 make migrations
-```
+```buildoutcfg
 docker-compose run app sh -c "python manage.py makemigrations core"
 ```
